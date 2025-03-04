@@ -3,8 +3,8 @@ Sector Menu（扇形菜单）是一种‌环形布局的交互控件‌，通过
 
 ## Image
 
-![image](https://github.com/Clemmie-L/SectorMenu/blob/main/image/IMG_1.png)
-![image](https://github.com/Clemmie-L/SectorMenu/blob/main/image/IMG_2.png)
+![image](https://github.com/Clemmie-L/SectorMenu/blob/main/image/IMG_1.PNG)
+![image](https://github.com/Clemmie-L/SectorMenu/blob/main/image/IMG_2.PNG)
 
 ## 使用方式
 
