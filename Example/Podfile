@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SectorMenu_Example' do
+  pod 'SectorMenu', :path => '../'
+
+  target 'SectorMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
