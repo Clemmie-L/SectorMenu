@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         // innerRadius 修改数值，更改扇形的样式。
         let menuView = SectorMenuView(frame: menuFrame, configs: configs, menuConfig: .init(innerRadius: 50))
         
+        // 点击
         menuView.onSectorTap = { index in
             print(index)
         }

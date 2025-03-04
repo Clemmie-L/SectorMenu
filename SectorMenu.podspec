@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SectorMenu'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Sector Menu（扇形菜单）是一种‌环形布局的交互控件‌，通过动态展开子菜单项形成扇形或圆弧形界面。'
 
 # This description is used to generate tags and improve search results.
