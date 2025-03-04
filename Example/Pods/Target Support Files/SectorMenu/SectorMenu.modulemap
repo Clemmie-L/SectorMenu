@@ -1,0 +1,6 @@
+framework module SectorMenu {
+  umbrella header "SectorMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

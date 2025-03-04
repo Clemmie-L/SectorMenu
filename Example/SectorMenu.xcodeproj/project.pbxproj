@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30DCC5C982FE014E3009361F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30DCC5C982FE014E3009361F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5EE5B3E85627E9F15B3997FB /* Pods-SectorMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectorMenu_Example.release.xcconfig"; path = "Target Support Files/Pods-SectorMenu_Example/Pods-SectorMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SectorMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectorMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67F44C3F22DBA9CCF83C642D /* Pods-SectorMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectorMenu_Example.debug.xcconfig"; path = "Target Support Files/Pods-SectorMenu_Example/Pods-SectorMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		83BA3DE9C44D4F9C54C7EE8D /* SectorMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SectorMenu.podspec; path = ../SectorMenu.podspec; sourceTree = "<group>"; };
+		83BA3DE9C44D4F9C54C7EE8D /* SectorMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SectorMenu.podspec; path = ../SectorMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		848B50C1C3CA427E21853C99 /* Pods_SectorMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectorMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE5F81CE46C4C7DEF2935F3 /* Pods-SectorMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectorMenu_Tests.release.xcconfig"; path = "Target Support Files/Pods-SectorMenu_Tests/Pods-SectorMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A02D49A4258814F7408E75AB /* Pods-SectorMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectorMenu_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SectorMenu_Tests/Pods-SectorMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF26BBBCFA80908A458F13B8 /* Pods_SectorMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectorMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6C6E98C4EAAA24867E16732 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6C6E98C4EAAA24867E16732 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				A02D49A4258814F7408E75AB /* Pods-SectorMenu_Tests.debug.xcconfig */,
 				9BE5F81CE46C4C7DEF2935F3 /* Pods-SectorMenu_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GK95KA5578;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 364S6M3263;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +272,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SectorMenu_Example/Pods-SectorMenu_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SectorMenu/SectorMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SectorMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,7 +482,9 @@
 			baseConfigurationReference = 67F44C3F22DBA9CCF83C642D /* Pods-SectorMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GK95KA5578;
 				INFOPLIST_FILE = SectorMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +499,9 @@
 			baseConfigurationReference = 5EE5B3E85627E9F15B3997FB /* Pods-SectorMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GK95KA5578;
 				INFOPLIST_FILE = SectorMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A02D49A4258814F7408E75AB /* Pods-SectorMenu_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 364S6M3263;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +525,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +539,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BE5F81CE46C4C7DEF2935F3 /* Pods-SectorMenu_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 364S6M3263;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

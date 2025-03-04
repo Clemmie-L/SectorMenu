@@ -1,0 +1,6 @@
+framework module Pods_SectorMenu_Tests {
+  umbrella header "Pods-SectorMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

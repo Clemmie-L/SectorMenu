@@ -1,0 +1,23 @@
+PODS:
+  - SectorMenu (0.1.0):
+    - SnapKit
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - SectorMenu (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  SectorMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SectorMenu: a77fe7a006dc0b7ad19f010cdfd571054d20a4b8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: e4a39a0c3e5fff4f44ae15618b27237b1c5c1d4d
+
+COCOAPODS: 1.15.2
